@@ -25,6 +25,12 @@ function cerrarDetalle() {
         class="col-12 col-md-6 col-lg-4"
       >
         <div class="card h-100">
+          <img
+            :src="producto.imagen"
+            :alt="producto.nombre"
+            class="card-img-top imagen-mueble"
+          />
+
           <div class="card-body">
             <h2 class="h5">{{ producto.nombre }}</h2>
 
@@ -47,3 +53,11 @@ function cerrarDetalle() {
     </div>
   </main>
 </template>
+
+<style scoped>
+.imagen-mueble {
+  height: 200px;
+  object-fit: contain;
+  padding: 10px;
+}
+</style>

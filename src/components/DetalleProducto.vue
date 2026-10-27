@@ -10,7 +10,11 @@ const emit = defineEmits(['cerrar'])
   <div class="card shadow-sm">
     <div class="card-body">
       <h2 class="h4 mb-3">Detalle del producto</h2>
-
+      <img
+        :src="producto.imagen"
+        :alt="producto.nombre"
+        class="img-fluid mb-3 imagen-detalle"
+      />
       <h3 class="h5">{{ producto.nombre }}</h3>
 
       <p>{{ producto.descripcion }}</p>
@@ -25,3 +29,11 @@ const emit = defineEmits(['cerrar'])
     </div>
   </div>
 </template>
+
+<style scoped>
+.imagen-detalle {
+  width: 100%;
+  max-height: 280px;
+  object-fit: contain;
+}
+</style>

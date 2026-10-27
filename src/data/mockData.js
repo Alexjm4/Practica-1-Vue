@@ -16,6 +16,7 @@ export const productos = [
         precio: 2800,
         categoria: 'Sala',
         stock: 5,
+        imagen: '/images/sofa-3-plazas.jpg'
     },
     {
         id: 2,
@@ -24,6 +25,7 @@ export const productos = [
         precio: 1500,
         categoria: 'Comedor',
         stock: 8,
+        imagen: '/images/mesa-comedor.jpg'
     },
     {
         id: 3,
@@ -32,6 +34,7 @@ export const productos = [
         precio: 750,
         categoria: 'Oficina',
         stock: 12,
+        imagen: '/images/silla-oficina.jpg'
     },
     {
         id: 4,
@@ -40,6 +43,8 @@ export const productos = [
         precio: 2200,
         categoria: 'Dormitorio',
         stock: 4,
+        imagen: '/images/armario.jpg'
+        
     },
     {
         id: 5,
@@ -48,6 +53,7 @@ export const productos = [
         precio: 950,
         categoria: 'Sala',
         stock: 7,
+        imagen: '/images/estanteria.jpg'
     },
     {
         id: 6,
@@ -56,5 +62,6 @@ export const productos = [
         precio: 1100,
         categoria: 'Oficina',
         stock: 6,
+        imagen: '/images/escritorio.jpg'
     },
 ]
